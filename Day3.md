@@ -1,6 +1,6 @@
 ![Web Rendering Block Diagram](https://www.html5rocks.com/en/tutorials/internals/howbrowserswork/webkitflow.png)
  
-**Rendering of Websites**  
+**Q1. Rendering of Websites**  
 Rendering of a website refers to displaying the contents visible on the browser screen. It communicates and requests information from the network of the browser and parses the HTML or CSS code from the server to the engine.  
 
 Parser - As seen from the block diagram, the HTML and CSS code are taken from the server and parsed using the HTML and CSS parser. 
@@ -16,7 +16,7 @@ User Interface - This displays the final output on the browser screen.
   3. Chakra Core created by Microsoft
   
 
-  **Difference between Interpreter and Compiler**  
+  **Q2. Difference between Interpreter and Compiler**  
   
   Interpreter -   
 1. It interprets the language every time.
@@ -30,7 +30,7 @@ User Interface - This displays the final output on the browser screen.
 3. After converting the program code into byte code, the program does not need to go through compilation again.
 4. Java is a compiled language.
 
-  **Different ways of defining a variable**
+  **Q3. Different ways of defining a variable**
   
   There are three ways to declare variables in JavaScript, they are - **let**, **const** and **var**, where let, const and var are keywords.
   
@@ -59,7 +59,7 @@ User Interface - This displays the final output on the browser screen.
  Disadvantages of **var** keyword:  
  Using the var keyword to declare a variable in JavaScript is not recommended as it might accidently overwrite an existing global variable.
  
- **Types of Scopes in JavaScript-**
+ **Q4. Types of Scopes in JavaScript-**
  
  The scope of a variable determines its accessibility. It refers to how the variables can be accessed in a program. There are 3 types of scopes in JavaScript-  
  They are -  
@@ -102,7 +102,7 @@ User Interface - This displays the final output on the browser screen.
  //try();  
  //console.log(a);
  
- **Types of Functions**
+ **Q5. Types of Functions**
 
 Defining a normal function: The "function" keyword is required to declare the normal function  
 function function_name() {
@@ -134,7 +134,7 @@ getFullName = () => {
 }
 
 
-**NodeJS**
+**Q6. NodeJS**
 
 NodeJS is an open-source, server side platform runtime environment for developing networking applications using JavaScript.  
 Features of NodeJS:  
@@ -155,7 +155,7 @@ pending callbacks: executes I/O callbacks deferred to the next loop iteration.
 
 Between each run of the event loop, Node.js checks if it is waiting for any asynchronous I/O or timers and shuts down cleanly if there are not any.
 
-**Promise**
+**Q7. Promise**
 Promises are used to handle asynchronous operations in JavaScript. They are easy to manage when dealing with multiple asynchronous operations where callbacks can create callback hell leading to unmanageable code.
 
 Creating a promise:  
